@@ -1,6 +1,6 @@
 name: 'Test with specific WordPress'
 on:
-    workflow_call:
+    workflow_dispatch:
         inputs:
             trigger:
                 description: 'Type of run to trigger. E.g. daily-e2e, release-checks, etc.'
